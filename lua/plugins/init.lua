@@ -12,11 +12,6 @@ local default_plugins = {
     end,
   },
 
---  {
---  'Exafunction/codeium.vim',
---  event = 'BufEnter'
---  },
-
   {
     "NvChad/ui",
     branch = "v2.0",
@@ -268,6 +263,8 @@ local default_plugins = {
     end,
   },
 }
+
+
 
 local config = require("core.utils").load_config()
 
